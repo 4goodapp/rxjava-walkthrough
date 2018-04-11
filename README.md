@@ -963,7 +963,8 @@ might
 
 ## Flatmap operator
 The flatMap operator is so important and has so many different uses it deserves it's own category to explain it.
-Code at [Part06FlatMapOperator.java](https://github.com/balamaci/rxjava-playground/blob/master/src/test/java/com/balamaci/rx/Part06FlatMapOperator.java)
+Code at [Part06FlatMapOperator.java](https://github.com/balamaci/rxjava-walkthrough/blob/3d647ccec830f01eb94d52d42808142909ffdc0c/src/test/java/com/balamaci/rx/Part07FlatMapOperator.java)
+
 
 I like to think of it as a sort of **fork-join** operation because what flatMap does is it takes individual stream items
 and maps each of them to an Observable(so it creates new Streams from each object) and then 'flattens' the events from 
